@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    width: 20vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.image img{
+    height: 45%;
+    padding: 20px;
+    border-radius: 10px;
+      
+}
+.image h2{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.image p{
+    font-size: 1.2rem;
+    padding: 10px;
+}

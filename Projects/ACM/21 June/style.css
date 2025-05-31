@@ -1,0 +1,11 @@
+.para{
+    display: block;
+}
+.replicate h2 a{
+    color: blue;
+}
+.button1{
+    font-weight: 550;
+    font-size: 16px;
+    padding: 5px;
+}

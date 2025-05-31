@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --primary: #ad5afacc;
+    --text: white;
+    --secondary: #e3cff5cc;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(0deg, #ffffff 0%, #f0f3f3 100%);
+}
+
+.navcontainer {
+    width: 100vw;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height: 60px;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 2.0rem;
+    font-family: "Poppins", sans-serif;
+}
+
+#navlogo {
+    font-size: 2.4rem;
+    color: var(--text);
+}
+
+.items {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.items a {
+    color: azure;
+    text-decoration: none;
+}
+
+.boxcontent {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+leftbox h2{
+    font-size: 2rem;
+}
+
+.ing{
+    font-size: 1.3rem;
+}
+
+.rec{
+    font-size: 1.1rem;
+}
+
+.rightbox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.6s linear 0s;
+    filter: drop-shadow(1px 1px 10px black);
+}
+
+.rightbox img {
+    width: 450px;
+    border-radius: 20px;
+}
+
+.rightbox:hover{
+    transform: scale(1.1);
+}
+
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(36, 34, 34, 0.713) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+
+.rightbox .overlay span{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.rightbox:hover .overlay{
+    opacity: 1;
+}
+
+.footerbox {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height: 60px;
+    color: azure;
+    text-align: center;
+    min-height: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}

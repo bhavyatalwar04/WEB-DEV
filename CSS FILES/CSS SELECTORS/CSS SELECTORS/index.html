@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Document</title>
+    <style>
+        /* Styling paragraphs inside any div */
+        div p {
+            background-color: red;
+            color: brown;
+        }
+
+        /* Resetting margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling visited links */
+        a:visited {
+            color: yellow;
+        }
+
+        /* Styling active links when we click */
+        a:active {
+            background-color: green;
+        }
+        a:hover{
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        hi This is div
+        <article>
+            <p>Hi this is para inside div</p>
+        </article>
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+</body>
+</html>

@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo ul {
+    list-style: none;
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.logo ul img {
+    height: 25px;
+}
+
+main {
+    margin-top: 75px;
+}
+
+.name {
+    font-weight: bold;
+    margin: auto;
+    display: felx;
+}
+
+.about p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.head {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.button1 {
+    color: white;
+    background-color: #2CBEFC;
+    font-weight: 500;
+    height: 35px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.green{
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+   padding: 14px 16px;
+   border: none;
+   background-color: #5cb85c;
+}
+section{
+    
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+.item{
+   margin: 20px;
+   padding
+}
+.lang{
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 36px;
+    background-color: rgb(242, 240, 240);
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
